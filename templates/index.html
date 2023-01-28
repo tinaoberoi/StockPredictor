@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    
+<center>
+    <h3 style="margin-top: 50px">Enter the last 5 days lap values to predict if stock will rise or fall</h3>
+    <form action="/predict" method=post enctype=multipart/form-data>
+        <div class="imgcontainer">
+            <img src="{{url_for('static', filename='stock.png')}}" alt="Avatar" class="avatar">
+          </div>
+          <p style="color: #0F52BA">{{ result }}</p>
+          <div class="container">
+            <label for="lag1t" style="font-weight:700">Lag 1 Array</label>
+            <input placeholder="Enter 5 laps for day 1" name=lag1 required>
+            <br><br>
+
+            <label for="lag2t" style="font-weight:700">Lag 2 Array</label>
+            <input placeholder="Enter 5 laps for day 2" name=lag2 required>
+            <br><br>
+
+            <label for="lag3t" style="font-weight:700">Lag 3 Array</label>
+            <input placeholder="Enter 5 laps for day 3" name=lag3 required>
+            <br><br>
+
+            <label for="lag4t" style="font-weight:700">Lag 4 Array</label>
+            <input placeholder="Enter 5 laps for day 4" name=lag4 required>
+            <br><br>
+
+            <label for="lag5t" style="font-weight:700">Lag 5 Array</label>
+            <input placeholder="Enter 5 laps for day 5" name=lag5 required>
+            <br><br>
+            <button type="submit" value=submit>Predict Stock</button>
+          </div>
+    </form>
+</center>
+{% endblock %}
