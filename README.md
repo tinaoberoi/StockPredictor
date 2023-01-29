@@ -6,7 +6,7 @@ This project uses [pipreqs](https://github.com/bndr/pipreqs) for creating requir
 
 The app is deployed [here](http://ec2-3-22-236-250.us-east-2.compute.amazonaws.com:5001/)
 
-![png](/StockPredictor/static/app_preview.png)
+![png](static/app_preview.png)
 
 Data format to add:
 
