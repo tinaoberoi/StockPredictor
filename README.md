@@ -21,7 +21,7 @@ Lap5 Array: 0.812,-0.218,-0.865,1.183,-1.334
 
 After adding laps, based on this data the model returns the up/down indicator.
 
-![./static/app_result_view.png](.media/img_0.png)
+![](./static/app_result_view.png)
 
 To run locally, use the following commands:
 
