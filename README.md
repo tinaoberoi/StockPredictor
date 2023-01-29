@@ -6,9 +6,10 @@ This project uses [pipreqs](https://github.com/bndr/pipreqs) for creating requir
 
 The app is deployed [here](http://ec2-3-22-236-250.us-east-2.compute.amazonaws.com:5001/)
 
-![./static/app_preview.png](.media/img_0.png)
+![./static/app_preview.png](.media/img_0.png)![app_preview.png](.media/img_2.png)
 
 Data format to add:
+
 ```
 Enter the Array laps in the form:
 Lap1 Array : 0.381,-0.192,-2.624,-1.055,5.01
@@ -17,6 +18,7 @@ Lap3 Array: 0.546,-0.562,0.701,0.68,-0.189
 Lap4 Array: -0.841,-0.151,0.359,-1.747,0.546
 Lap5 Array: 0.812,-0.218,-0.865,1.183,-1.334
 ```
+
 After adding laps, based on this data the model returns the up/down indicator.
 
 ![./static/app_result_view.png](.media/img_0.png)
