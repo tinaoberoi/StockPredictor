@@ -6,7 +6,7 @@ This project uses [pipreqs](https://github.com/bndr/pipreqs) for creating requir
 
 The app is deployed [here](http://ec2-3-22-236-250.us-east-2.compute.amazonaws.com:5001/)
 
-![./static/app_preview.png](.media/img_0.png)![app_preview.png](.media/img_2.png)
+![./static/app_preview.png](./static/app_preview.png)
 
 Data format to add:
 
