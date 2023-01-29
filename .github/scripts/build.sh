@@ -17,6 +17,4 @@ echo -ne '#######################   (100%)\r'
 echo -ne '\n'
 
 python3 create_model.py
-echo "Starting the app."
-python3 app.py
 
