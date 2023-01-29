@@ -8,7 +8,7 @@ sleep 1
 echo "Activating virtual environment env."
 source env/bin/activate
 echo -ne '#############             (66%)\r'
-sleep 1
+sleep 10
 
 echo "Installed required packages."
 pip3 install -r requirements.txt
