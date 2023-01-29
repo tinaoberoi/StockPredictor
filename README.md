@@ -2,7 +2,13 @@
 
 The App uses knn classifier for predicting if the stock on the next day will go up or down. It uses laps for the 5 lap predictors for the 5 days to make a prediction.
 
-This project uses [pipreqs](https://github.com/bndr/pipreqs) for creating requirements.txt
+## Tech Stack Used:
+- This project uses [pipreqs](https://github.com/bndr/pipreqs) for creating requirements.txt
+- The Project is deployed on AWS EC2 clusters.
+- Github actions are used for deployment on EC2. (.github/workflows)
+- Here gunicorn is used to start the server.
+- Backend is written in Flask.
+- For model creating `numpy, sklearn, pandas` are used.
 
 The app is deployed [here](http://ec2-3-22-236-250.us-east-2.compute.amazonaws.com:5001/)
 
