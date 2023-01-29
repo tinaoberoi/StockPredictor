@@ -2,6 +2,8 @@
 
 The App uses knn classifier for predicting if the stock on the next day will go up or down. It uses laps for the 5 lap predictors for the 5 days to make a prediction.
 
+## Project Flow:
+![app flow](./project_flow.drawio.png)
 ## Tech Stack Used:
 - This project uses [pipreqs](https://github.com/bndr/pipreqs) for creating requirements.txt
 - The Project is deployed on AWS EC2 clusters.
@@ -38,5 +40,3 @@ To run locally, use the following commands:
 
 Note: If you are still not in env virtual environment please run
 ```source env/bin/actiavte```
-
-The url to access the app will be provided at the console output.
